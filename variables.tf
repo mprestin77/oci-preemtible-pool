@@ -52,7 +52,7 @@ variable "instance1" {
     shape = "VM.Standard.E4.Flex"
     ocpu = 32
     memory = 64
-    instance_count = 2
+    instance_count = 10
     os = "Oracle Linux"
     os_version = "8"
     create_in_private_subnet = true
@@ -68,7 +68,7 @@ variable "instance2" {
     shape = "VM.Standard.E4.Flex"
     ocpu = 32
     memory = 64
-    instance_count = 2
+    instance_count = 0
     os = "Oracle Linux"
     os_version = "8"
     create_in_private_subnet = true
@@ -84,7 +84,7 @@ variable "instance3" {
     shape = "VM.Standard.E4.Flex"
     ocpu = 32
     memory = 64
-    instance_count = 2
+    instance_count = 0
     os = "Oracle Linux"
     os_version = "8"
     create_in_private_subnet = true
