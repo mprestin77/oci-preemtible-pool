@@ -9,7 +9,6 @@ variable "region" {}
 variable "compartment_ocid" {}
 
 
-
 locals {
   image_ocid    = ""     # Enter here OCID of the image if you provision compute instances from a custom image 
 }
@@ -63,7 +62,7 @@ variable "ssh_provided_public_key" {
 
 # ---------------------------------------------------------------------------------------------------------------------
 # Compute instance configurations
-# --------------------------------------------------------------------------------------------------------------------
+# ---------------------------------------------------------------------------------------------------------------------
 variable "instance-config1" {
   type = map(string)
   default = {
