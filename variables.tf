@@ -69,9 +69,9 @@ variable "instance-config1" {
   default = {
     name = "test1"
     shape = "VM.Standard.E4.Flex"
-    ocpu = 2
-    memory = 16
-    instance_count = 12
+    ocpu = 28
+    memory = 64
+    instance_count = 10
     os = "Oracle Linux"
     os_version = "8"
     create_in_private_subnet = true
@@ -86,9 +86,9 @@ variable "instance-config2" {
   default = {
     name = "test2"
     shape = "VM.Standard.E4.Flex"
-    ocpu = 2
-    memory = 16
-    instance_count = 2
+    ocpu = 28
+    memory = 64
+    instance_count = 10
     os = "Oracle Linux"
     os_version = "8"
     create_in_private_subnet = true
@@ -105,7 +105,7 @@ variable "instance-config3" {
     shape = "VM.Standard3.Flex"
     ocpu = 28
     memory = 64
-    instance_count = 0
+    instance_count = 10
     os = "Oracle Linux"
     os_version = "8"
     create_in_private_subnet = true
